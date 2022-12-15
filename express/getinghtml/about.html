@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>about</title>
+    <link rel="stylesheet" href="about.css">
+    <script>
+       var  data = 0;
+        const count = (value)=>{
+        value == 1 ? data++ : data--;
+        document.getElementById('h1').innerText = data;
+        }
+
+    </script>
+</head>
+<body>
+    <h1 >check this one </h1>
+       <h1 id="h1" ></h1>
+       <button  onclick="count(1)" >click +</button>
+       <button  onclick="count(0)" >click -</button>
+</body>
+</html>
